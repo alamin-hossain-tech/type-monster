@@ -22,7 +22,7 @@
   <body>
     <h1 class="title"><img src="./logo.png" /></h1>
     <main>
-      <section class="w-75 mx-auto text-light">
+      <section class="w-75 mx-auto text-light mb-5">
         <div class="local-session">
           <h3 class="h4 text-center pb-3 mt-5">
             Difference Between Local Storage and Session Storage
@@ -86,8 +86,24 @@
             </tr>
           </table>
         </div>
-        <div class="ques-ans mt-5 border">
+        <div class="ques-ans mt-5 border p-3">
           <h5>How Event Loop works?</h5>
+          <p>
+            The Event Loop has one simple job — to monitor the Call Stack and
+            the Callback Queue. If the Call Stack is empty, the Event Loop will
+            take the first event from the queue and will push it to the Call
+            Stack, which effectively runs it. Such an iteration is called a tick
+            in the Event Loop.
+          </p>
+        </div>
+        <div class="ques-ans mt-5 border p-3">
+          <h5>When we get undefined?</h5>
+          <p>
+            A variable that has not been assigned a value is of type undefined .
+            A method or statement also returns undefined if the variable that is
+            being evaluated does not have an assigned value. A function returns
+            undefined if a value was not returned .
+          </p>
         </div>
       </section>
     </main>
